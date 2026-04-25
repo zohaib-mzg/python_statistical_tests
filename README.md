@@ -175,37 +175,6 @@ Example (`data.csv`):
 
 ---
 
-## Example Output
-
-```
-Stage 1:
-
-Select Variable 2
-
-F_Calc: 1.2341 is not greater than F_Crit: 4.1709.
-The variable 2 is not significant. Removing it from the model.
-
-Stage 2:
-
-Select Variable 3
-
-F_Calc: 5.8821 is greater than F_Crit: 4.2565.
-The variable 3 is significant. Keeping it in the model.
-
-No more variables to remove. Ending the process.
-Final model includes the variables: [1, 3]
-
-Full Model Coefficients
-b0: 12.3456
-b1: 0.8721
-b2: -0.2314
-b3: 1.4500
-
-Reduced Model Coefficients
-b0: 11.9823
-b1: 0.9012
-b3: 1.3871
-```
 
 ---
 
@@ -223,23 +192,9 @@ b3: 1.3871
 
 ---
 
-## Contributing
-
-Contributions are welcome! If you'd like to add more statistical tests (t-tests, chi-square, ANOVA, Mann-Whitney, Kruskal-Wallis, etc.), please:
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/add-anova-test`
-3. Commit your changes: `git commit -m "Add one-way ANOVA implementation"`
-4. Push and open a Pull Request
-
-Please follow consistent function naming and include inline comments explaining the statistical logic.
-
----
-
 ## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
 ---
 
 <p align="center">Made with 🧮 for students and researchers in Advanced Statistics</p>
